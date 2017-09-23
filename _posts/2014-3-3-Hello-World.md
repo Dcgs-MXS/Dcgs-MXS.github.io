@@ -4,7 +4,7 @@
 Blog post 1
 
 
-12/9/17
+
 
 
 Starting point:
