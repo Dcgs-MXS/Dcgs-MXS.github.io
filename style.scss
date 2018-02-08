@@ -6,7 +6,7 @@
 //
 
 @import "reset";
-@import "variables";
+@import "variables";·
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: url("https://media.giphy.com/media/3ohzdL95gkIo73F3Vu/giphy.gif");
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background-image: url(https://media.giphy.com/media/JTiov5UXnJyKI/giphy.gif);
+	font: 18px/1.4 #E84141;
+	color: #339933;
+ 
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #E84141;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #E84141;
 }
 
 p {
@@ -69,11 +70,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #E84141;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #E84141;
   }
 }
 
@@ -117,17 +118,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #E84141;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: #E84141;
+  background: #000000;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: #E84141;
+  background: #000000;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -164,11 +165,12 @@ img {
 }
 
 .site-avatar {
+  site-image: url(https://www.spreadshirt.com/image-server/v1/mp/designs/12148038,width=178,height=178/christmas-tree-avatar.png);
   float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
-
+	
   @include mobile {
     float: none;
     display: block;
@@ -192,7 +194,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #E84141;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +204,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #E84141;
   font-size: 16px;
 
   @include mobile {
@@ -225,14 +227,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #E84141;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #E84141;
     }
   }
 }
@@ -256,7 +258,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #E84141;
     font-size: 22px;
     font-style: italic;
   }
@@ -275,7 +277,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #000000;
 }
 
 footer {
