@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Fortnite is my game!
+God Squad on Madden 18
 
 ### More Information
 
-Mans not hot, he is on fire!
+Ps4, badminton and NFL
 
 ### Contact me
 
