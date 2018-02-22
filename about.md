@@ -12,4 +12,4 @@ Ps4, badminton and NFL
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[INDIANASSASIN@GMAIL.COM](mailto:email@domain.com)
