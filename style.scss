@@ -18,43 +18,55 @@ html {
   font-size: 100%;
 }
 
-body {
-  background-image: url(https://wallpaperscraft.com/image/chip_grid_background_black_green_line_circuit_36221_2560x1600.jpg);
+body {	
+  background-image: url("http://freshwallpapers.in/walls/abstract_digital-HD.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center; 
   font: 18px/1.4 $helvetica;
-  color: #ff0000;  
+  color: #ffffff;
 }
-.container {
 
-  box-shadow: 20px 20px 10px rgba(51, 51, 0, 0.7);
+.font_proof {
+	font-family: $cust_font;
+}
+	
+iframe {
+	height: 500px;
+	width: 100%;
+	
+}
+
+
+.container {
   margin: 0 auto;
   max-width: 850px;
   padding: 0 10px;
   width: 100%;
-  background: linear-gradient(rgba(51, 51, 51, 0.72), rgba(255, 255, 0, 0.72));
+  background:rgba(35, 50, 55,0.9);
   border-radius: 25px;
-  padding: 20px;
-  border-bottom: 1.5px rgb(0, 255, 255);
+  padding: 20px; 
+  border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: #00ffff;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #eac67a;
   font-weight: bold;
-	
+
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
-  line-height: 1.4;
+    line-height: 1.4;
   }
 }
 
 h1 {
   font-size: 30px;
-a {
-  color: inherit;
+  a {
+    color: inherit;
   }
 }
 
@@ -68,7 +80,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #47b300;
+  color: #98434b;
 }
 
 p {
@@ -76,11 +88,11 @@ p {
 }
 
 a {
-  color: #00ffff;
+  color: #984b43;
   text-decoration: none;
-  cursor: pointer;
+	cursor: pointer;
   &:hover, &:active {
-  color: #ff0000;
+    color: #eac67a;
   }
 }
 
@@ -118,60 +130,58 @@ img {
 }
 
 table {
+    border-collapse: collapse;
     width: 100%;
+	border-radius: 25px;
 }
 
+table, th, td {
+   border: 1px solid white;
+	background-color:#984b43;
+
+}
+
+td {
+   vertical-align: middle; 
+   padding: 10px;
+}	
+
 th {
-   color: black;
-   background: rgba(255, 255, 0, 0.6);
+   color: white;
+   background: #233237;
    height:50px;
    vertical-align: middle;
 }
 
-table, th, td {
-   border: 2px solid black;
-   background-color:rgba(255, 255, 0, 0.6);
+div.vid {
+    width: 560px;
+    height: 340px;
+    margin: 0 auto;
 }
 
-table {
-    border-collapse: collapse;
+iframe{
+	width: 100%;
+	height: 200px;
+	
 }
 
-th, td {
-    padding: 15px;
-    text-align: left;
-}
-
-td {
-    vertical-align: center;
-}
-
-/* unvisited link */
-a:link {
-    color: #00ffff;
-}
-
-/* visited link */
-k:visited {
-    color: #00ffff;
-}
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
-    max-width: none;
+  max-width: none;
 }
 
 .date {
-    font-style: italic;
-    color: #ff0000;
+  font-style: italic;
+  color: white;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: #00ffff;
+  color: $black;
   background: $lightGray;
 }
 ::selection {
-  color: #00ffff;
+  color: $black;
   background: $lightGray;
 }
 
@@ -196,12 +206,12 @@ k:visited {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid white;
 
   @include mobile {
     text-align: center;
@@ -237,7 +247,7 @@ k:visited {
 
 .site-name {
   margin: 0;
-  color: #00ffff;
+  color: #eac67a;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -247,7 +257,7 @@ k:visited {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #00ffff;
+  color: white;
   font-size: 16px;
 
   @include mobile {
@@ -270,14 +280,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #00ffff;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #00ffff;
+      color: $blue;
     }
   }
 }
@@ -287,8 +297,8 @@ nav {
 //
 
 .posts > .post {
-  padding: 2px;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 2em;
+  border-bottom: 1px solid white;
 }
 
 .posts > .post:last-child {
@@ -299,13 +309,13 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid white;
     padding: 0.1em 1em;
-    color: #00ffff;
+    color: white;
     font-size: 22px;
     font-style: italic;
   }
-	
+
   .comments {
     margin-top: 10px;
   }
@@ -316,16 +326,17 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
+//.wrapper-footer {
+//  margin-top: 50px;
+//  border-top: 1px solid #ddd;
+//  border-bottom: 1px solid #ddd;
+//  background-color: $lightGray;
+//}
 
 footer {
   padding: 20px 0;
   text-align: center;
+	border-bottom: 1px solid white;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
