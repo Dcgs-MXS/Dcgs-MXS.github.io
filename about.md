@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-God Squad on Madden 18
+Imma leave this blank
 
 ### More Information
 
-Ps4, badminton and NFL
+
 
 ### Contact me
 
-[INDIANASSASIN@GMAIL.COM](mailto:email@domain.com)
+[dontcontactme@gmail.com](mailto:email@domain.com)
